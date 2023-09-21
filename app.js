@@ -45,7 +45,6 @@ function vender(nombreDelItem) {
 function actualizarHTML() {
     elInventario.innerHTML = "";
     for (const itemDeLaTienda of inventario) {
-       // const indice = inventario.indexOf(itemDeLaTienda);
         const li = `
         <li onclick="vender('${itemDeLaTienda.nombre}')">
           <img src="img/${itemDeLaTienda.imagen}" alt="${itemDeLaTienda.imagen}" />
