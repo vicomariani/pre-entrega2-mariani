@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    padding: 20PX;
+}
+.inicio {
+    color: rgb(160, 79, 198);
+    text-align: center;
+    border: 4px solid rgb(221, 160, 29);
+    padding: 20px 30PX; 
+    
+}
+.inicio h1 {
+    font-size: 35PX;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inicio h2 {
+    color: rgb(221, 160, 29);
+    text-align: center;
+    font-size: 18PX;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.inicio ul li {
+    cursor: pointer;
+    border: 1px solid rgb(221, 160, 29);
+    margin: 5px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+ul li img {
+    width: 100px;
+    height: 130px;
+}
+li:hover {
+    border: 2px solid rgb(160, 79, 198);
+  }
+.juegos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color: rgb(221, 160, 29);
+    text-align: center;
+    border: 4px solid rgb(160, 79, 198);
+    padding: 10px 20px 20px 20px;
+    margin: 10px 0px;
+}
+.juegos h2 {
+    font-size: 25px;
+}
+.juegos h3 {
+    color: rgb(160, 79, 198);
+    font-size: 22px;
+    font-style: italic;
+    border: 2px solid rgb(221, 160, 29);
+    padding: 5px;
+    margin: 0px 200px;
+}
+#inventario li {
+    display: inline-block;
+    
+}
+
+@media (max-width: 768px) {
+    .inicio {
+        padding: 20px;
+    }
+    .inicio h1 {
+        font-size: 25PX
+    }
+    .inicio h2 {
+        font-size: 12PX;
+    }
+    .juegos h2 {
+        font-size: 20px;
+    }
+    .juegos h3 {
+        font-size: 18px;
+        margin: auto;
+    }
+    ul li img {
+        width: 90px;
+        height: 115px;
+    }
+  }
+
+
+
+
+
+
+
+

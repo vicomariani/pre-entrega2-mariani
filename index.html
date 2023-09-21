@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=scr, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicom.jpg">
+    <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+    <section class="inicio">
+        <h1>BIENVENIDOS!</h1>
+        <h2>SELECCIONE EL JUEGO QUE QUIERE COMPRAR</h2>
+        <ul>
+            <li onclick="comprar(fortnite)">Fortnite</li>
+            <li onclick="comprar(gta)">GTA</li>
+            <li onclick="comprar(warzone)">Warzone</li>
+        </ul>
+    </section>
+    <section class="juegos">
+        <h2>JUEGOS SELECCIONADOS
+        </h2>
+        <ul id="inventario">
+        </ul>
+        <h3 id="dinero">Dinero Disponible <br> $<span></span></h3>
+    </section>
+           
+    <script src="app.js"></script>
+</body>
+</html>
+
